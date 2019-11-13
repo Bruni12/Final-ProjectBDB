@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">     
+    <link rel="stylesheet" href="styles/common.css"> 
+    <link rel="stylesheet" href="styles/nav.css"> 
+    <link rel="stylesheet" href="styles/footer.css"> 
+    <link rel="stylesheet" href="styles/skewed-header.css">
+    <link rel="stylesheet" href="styles/square-grid.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+
+</head> 
+<body> 
+    <div class="skewed-header">
+        <div class="header-bg" style="background-image: url('background/Bruni-49.jpg')"></div>                                        
+            
+            <div class="skewed-header-wrapper">
+                <div class="skewed-header-content">
+                    <div class="heading-wrapper ">
+                        <h1>Watches</h1>
+                </div>
+
+                <div class="links-wrapper">
+                        <div class="nav-link">
+                            <a href="index.html">Home</a>
+                        </div> 
+        
+                        <div class="nav-link">
+                            <a href="about.html">About</a>
+                        </div>
+        
+                        <div class="nav-link">   
+                            <a href="watches.html">Watches</a>
+                        </div>
+        
+                        <div class="nav-link">
+                            <a href="contact.html">Contact</a>             
+                        </div>
+                    </div>
+                  </div>   
+               </div>
+            </div>
+
+      <div class="squares-wrapper">
+          <div class="squares">
+                <div class="square">
+                    <div class="image-wrapper">
+                        <img src="squares/watch silver tan closeup.jpg" alt="Tan Watch">
+                    </div>
+
+                <div class="square-text-wrapper">
+                    <a href="#The Aviator" name="The Aviator" class="anchor-link">
+                            <h1>The Aviator</h1>
+                    </a> 
+                    <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'white',
+            layout: 'vertical',
+            label: 'paypal',
+            
+        },
+        createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '1'
+                    }
+                }]
+            });
+        },
+        onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+        }
+    }).render('#paypal-button-container');
+</script>
+
+                       <ul>
+                           <li>some menu item...</li>
+                           <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                           <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
+                           <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
+                           <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
+                       </ul> 
+                    </div> 
+                    
+                    
+               </div>
+            <div class="square">
+                <div class="square-text-wrapper">
+                        <a href="#Gun Metal" name="Gun Metal" class="anchor-link">
+                                <h1>Gun Metal</h1>
+                        </a>
+                
+
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                    <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
+                    <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
+                    <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
+                </l> 
+              </div> 
+
+              
+                
+                <div class="image-wrapper">
+                        <img src="squares/Main Black Final12.jpg" alt="black Watch">
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="image-wrapper">
+                        <img src="squares/rosegold reflection close up.jpg" alt="Tan Watch">
+                    </div>
+                    
+                <div class="square-text-wrapper">
+                        <a href="#The Riveter" name="The Riveter" class="anchor-link">
+                                <h1>The Riveter</h1>
+                        </a> 
+    
+                    <ul>
+                        <li>some menu item...</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                        <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
+                        <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
+                        <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
+                    </ul> 
+                </div>        
+            </div>
+            <div class="square">
+                <div class="square-text-wrapper">
+             </div> 
+                <div class="image-wrapper">
+                    </div>
+                </div> 
+            </div>
+        </div>   
+
+            <div class="footer">
+                <div class="logo-footer">
+                    <img src="C:\Users\Brenden Coder\Desktop\html-css\Web Compatible Bruni Logo white final.png" alt="Logo">
+            </div>
+        
+            <div class="footer-phone-hours">
+                    <span class="phone">
+                    801-513-4198
+                    </span>
+        
+                    <span class="hours">
+                        10 am - midnight
+                    </span>
+                </div>
+            
+                <div class="links-wrapper">
+                        <div class="nav-link">
+                            <a href="index.html">Home</a>
+                        </div> 
+        
+                        <div class="nav-link">
+                            <a href="about.html">About</a>
+                        </div>
+        
+                        <div class="nav-link">   
+                            <a href="menu.html">Menu</a>
+                        </div>
+        
+                        <div class="nav-link">
+                            <a href="contact.html">Contact</a>             
+                        </div>
+                      </div>
+                   
+                      <div class="social-media-icons-wrapper">
+                          <a href="#">
+                                <i class="fab fa-instagram"></i>
+                          </a>
+        
+                          <a href="#">
+                                <i class="fab fa-twitter"></i>
+                          </a>
+        
+                          <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                          </a>  
+                      </div>
+        
+                    <div class="copyright-wrapper">
+                          &copy;2019 Bruni &#124; All Rights Reserved
+                    </div>
+                </div> 
+            </div>         
+        
+        </body>
+    </html> 
