@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Menu</title>
+    <title>Watches</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -60,35 +60,15 @@
                 <div class="square-text-wrapper">
                     <a href="#The Aviator" name="The Aviator" class="anchor-link">
                             <h1>The Aviator</h1>
+                            <h2>$127.00</h2>
                     </a> 
-                    <div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-    paypal.Buttons({
-        style: {
-            shape: 'pill',
-            color: 'white',
-            layout: 'vertical',
-            label: 'paypal',
-            
-        },
-        createOrder: function(data, actions) {
-            return actions.order.create({
-                purchase_units: [{
-                    amount: {
-                        value: '1'
-                    }
-                }]
-            });
-        },
-        onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-                alert('Transaction completed by ' + details.payer.name.given_name + '!');
-            });
-        }
-    }).render('#paypal-button-container');
-</script>
-
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="4A5XYVJGTGW2J">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                       
                        <ul>
                            <li>some menu item...</li>
                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
@@ -103,17 +83,23 @@
             <div class="square">
                 <div class="square-text-wrapper">
                         <a href="#Gun Metal" name="Gun Metal" class="anchor-link">
-                                <h1>Gun Metal</h1>
+                                <h1>The Gunner</h1>
+                                <h2>$127.00</h2>
                         </a>
-                
-
-                <ul>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                    <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
-                    <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
-                    <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
-                </l> 
-              </div> 
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="7RUBCQ5N57DGG">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
+                         <ul>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
+                            <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
+                            <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
+                        </ul> 
+                    </div> 
 
               
                 
@@ -129,15 +115,22 @@
                 <div class="square-text-wrapper">
                         <a href="#The Riveter" name="The Riveter" class="anchor-link">
                                 <h1>The Riveter</h1>
+                                <h2>$127.00</h2>
                         </a> 
-    
-                    <ul>
-                        <li>some menu item...</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                        <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
-                        <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
-                        <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
-                    </ul> 
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="9YJGJDM29MLLU">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
+                        <ul>
+                            <li>some menu item...</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li>Reprehenderit veniam error temporibus ducimus repellendus, voluptate deserunt!</li>
+                            <li>Reiciendis praesentium sapiente adipisci ipsa laborum sunt ipsum.</li>
+                            <li>Atque debitis laborum dolorum, iste inventore nihil eius.</li>
+                        </ul> 
                 </div>        
             </div>
             <div class="square">
@@ -183,15 +176,15 @@
                       </div>
                    
                       <div class="social-media-icons-wrapper">
-                          <a href="#">
+                          <a href="https://instagram.com/bruni.watches">
                                 <i class="fab fa-instagram"></i>
                           </a>
         
-                          <a href="#">
+                          <a href="https://twitter.com/bruniwatches">
                                 <i class="fab fa-twitter"></i>
                           </a>
         
-                          <a href="#">
+                          <a href="https://www.facebook.com/BRUNI-Watches-2104519539581529">
                                 <i class="fab fa-facebook-f"></i>
                           </a>  
                       </div>

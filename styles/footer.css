@@ -26,7 +26,7 @@
 
 .footer > .footer-phone-hours > .hours {
     font-size: 0.8em;  
-    color: #cea135;
+    color: #78d4f0;
     text-transform: uppercase;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .footer > .social-media-icons-wrapper a:hover {
-    color: #cea135;    
+    color: #78d4f0;    
 }
 
 .footer > .copyright-wrapper {
